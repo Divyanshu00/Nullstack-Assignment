@@ -1,0 +1,9 @@
+#progream to chk a program is prime or not 
+n = int(input("Enter you number:-")) 
+#user iput taken here:
+if n==2:
+ print("Yes, It's Prime!")           
+elif n%2!=0:
+    print("Yes,it's Prime!")
+else :
+ print("Not a prime number!")
